@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Payment</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230612235048">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<a href="home.html" class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Watches</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Eyewear</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Accessories</a></li>
+							<li class="menu__item"><a href="" class="menu__link">News</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header-action action-header">
+					<a href="#" data-popup="#search-1" class="action-header__search _icon-search"></a>
+					<a data-da=".menu__body, 480" href="" class="action-header__login _icon-profile">Log In</span></a>
+					<a href="#" data-popup="#popap-basket" class="action-header__basket _icon-basket"></a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+				<!-- <div class="title">Recent News</div> -->
+
+			</div>
+		</header>
+		<main class="checkout">
+			<div class="checkout__steps steps-checkout">
+				<div class="steps-checkout__container">
+					<div class="steps-checkout__items">
+						<div class="steps-checkout__icon _icon-checkout"></div>
+						<div class="steps-checkout__word">1.Checkout</div>
+					</div>
+					<div class="steps-checkout__decor"></div>
+					<div class="steps-checkout__items">
+						<div class="steps-checkout__icon steps-checkout__icon--orange _icon-payment"></div>
+						<div class="steps-checkout__word steps-checkout__word--orange">2.Payment</div>
+					</div>
+					<div class="steps-checkout__decor"></div>
+					<div class="steps-checkout__items">
+						<div class="steps-checkout__icon _icon-confirm"></div>
+						<div class="steps-checkout__word">3.Confirmation</div>
+					</div>
+				</div>
+			</div>
+			<div class="payment__questionnaire questionnaire">
+				<div class="questionnaire__container">
+					<div class="questionnaire__blocks">
+						<section class="questionnaire__detail-order detail-order">
+							<h2 class="detail-order__title title-weight">Detail Order</h2>
+							<div class="detail-order__items">
+								<div class="detail-order__flex flex-detail">
+									<div class="flex-detail__text">Subtotal</div>
+									<div class="flex-detail__text-info">Rp 2.152.000</div>
+								</div>
+								<div class="detail-order__flex flex-detail">
+									<div class="flex-detail__text">Shipping Cost</div>
+									<div class="flex-detail__text-info">Rp 500.000</div>
+								</div>
+								<div class="detail-order__flex flex-detail">
+									<div class="flex-detail__text">Promo Code</div>
+									<div class="flex-detail__text-info">INDONESIA</div>
+								</div>
+								<div class="detail-order__flex flex-detail">
+									<div class="flex-detail__text">Packaging</div>
+									<div class="flex-detail__text-info">Rp 50.000</div>
+								</div>
+								<div class="detail-order__flex flex-detail">
+									<div class="flex-detail__text">Grand Total</div>
+									<div class="flex-detail__text-info flex-detail__text-info--big">Rp 2.702.000</div>
+								</div>
+							</div>
+						</section>
+						<div class="questionnaire__small small-questionnaire">
+							<div class="small-questionnaire__flex">
+								<h2 class="small-questionnaire__title title-weight">Payment Detail</h2>
+								<div id="timer" data-hours="11" data-minutes="55" data-seconds="55" class="small-questionnaire__time"></div>
+							</div>
+							<p class="small-questionnaire__text">Please make a payment according with the limit time
+								specified, starting from now</p>
+						</div>
+					</div>
+					<section class="questionnaire__address">
+						<div class="address-questionnaire">
+							<h2 class="address-questionnaire__title title-weight">Order Detail</h2>
+							<div class="address-questionnaire__items items-address">
+								<div class="items-address__desc">Order Number</div>
+								<div class="items-address__item">
+									<div class="items-address__text items-address__text--uppercase">MTAWEB-3A86D4DB<span class="items-address__copy">copy</span></div>
+									<div class="items-address__small-text">Always remember Order Number for easy
+										tracking</div>
+								</div>
+							</div>
+							<div class="address-questionnaire__items items-address">
+								<div class="items-address__desc">Purchase Date</div>
+								<div class="items-address__item">
+									<div class="items-address__text">2019-11-07 14:01:48</div>
+								</div>
+							</div>
+							<div class="address-questionnaire__items items-address">
+								<div class="items-address__desc">Items</div>
+								<div class="items-address__item">
+									<div class="items-address__text">Way Kambas Mini Ebony</div>
+									<div class="items-address__small-text">2 x IDR 1.024.000</div>
+									<div class="items-address__text">Sikka (Ebony & Mapple)</div>
+									<div class="items-address__small-text">1 x IDR 1.264.000</div>
+								</div>
+							</div>
+							<div class="address-questionnaire__items items-address">
+								<div class="items-address__desc">Name</div>
+								<div class="items-address__item">
+									<div class="items-address__text">Rasyidin Arsyad Nasution</div>
+								</div>
+							</div>
+							<div class="address-questionnaire__items items-address">
+								<div class="items-address__desc">Phone</div>
+								<div class="items-address__item">
+									<div class="items-address__text">+18911188899</div>
+								</div>
+							</div>
+							<div class="address-questionnaire__items items-address">
+								<div class="items-address__desc">Email</div>
+								<div class="items-address__item">
+									<div class="items-address__text">rasyid.arsyad@gmail.com</div>
+								</div>
+							</div>
+							<div class="address-questionnaire__items items-address items-address--align-items">
+								<div class="items-address__desc">Shipping Address</div>
+								<div class="items-address__item">
+									<div class="items-address__text">18 Richardson Drive
+										Fountain Valley, CA 92708</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<form class="questionnaire__payment-method">
+						<section class="questionnaire__section payment-method">
+							<h2 class="payment-method__title title-weight">Payment Method</h2>
+							<div class="payment-method__items">
+								<div class="payment-method__item">
+									<div class="payment-method__radio-block radio-block">
+										<input id="cicilan" checked type="radio" name="bank-radio" class="radio-original">
+										<label class="radio-block__label" for="cicilan"><span class="radio-block__text">BNI Cicilan 0%</span></label>
+									</div>
+									<div class="payment-method__img">
+										<picture><source srcset="img/payment/image_1.webp" type="image/webp"><img src="img/payment/image_1.png" alt="Logo"></picture>
+									</div>
+								</div>
+								<div class="payment-method__item">
+									<div class="payment-method__radio-block radio-block">
+										<input id="mandiri" type="radio" name="bank-radio" class="radio-original">
+										<label class="radio-block__label" for="mandiri"><span class="radio-block__text">Mandiri Cicilan 0%</span></label>
+									</div>
+									<div class="payment-method__img">
+										<picture><source srcset="img/payment/image_2.webp" type="image/webp"><img src="img/payment/image_2.png" alt="Logo"></picture>
+									</div>
+								</div>
+								<div class="payment-method__item">
+									<div class="payment-method__radio-block radio-block">
+										<input id="transfer" type="radio" name="bank-radio" class="radio-original">
+										<label class="radio-block__label" for="transfer"><span class="radio-block__text">Bank Transfer</span></label>
+									</div>
+									<div class="payment-method__img">
+										<picture><source srcset="img/payment/image_3.webp" type="image/webp"><img src="img/payment/image_3.png" alt="Logo"></picture>
+									</div>
+								</div>
+								<div class="payment-method__item">
+									<div class="payment-method__radio-block radio-block">
+										<input id="credit" type="radio" name="bank-radio" class="radio-original">
+										<label class="radio-block__label" for="credit"><span class="radio-block__text">Credit Card</span></label>
+									</div>
+									<div class="payment-method__pictures">
+										<div class="payment-method__img">
+											<picture><source srcset="img/payment/image_4.webp" type="image/webp"><img src="img/payment/image_4.png" alt="Logo"></picture>
+										</div>
+										<div class="payment-method__img">
+											<picture><source srcset="img/payment/image_5.webp" type="image/webp"><img src="img/payment/image_5.png" alt="Logo"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="payment-method__items payment-method__items--column">
+								<div class="payment-method__item">
+									<div class="payment-method__radio-block radio-block">
+										<input id="charter" type="radio" name="bank-radio" class="radio-original">
+										<label class="radio-block__label" for="charter"><span class="radio-block__text">Credit Card Cicilan 0% (Danamon, UOB &
+												Standard Chartered)</span></label>
+									</div>
+									<div class="payment-method__pictures">
+										<div class="payment-method__img">
+											<picture><source srcset="img/payment/image_6.webp" type="image/webp"><img src="img/payment/image_6.png" alt="Logo"></picture>
+										</div>
+										<div class="payment-method__img">
+											<picture><source srcset="img/payment/image_7.webp" type="image/webp"><img src="img/payment/image_7.png" alt="Logo"></picture>
+										</div>
+										<div class="payment-method__img">
+											<picture><source srcset="img/payment/image_8.webp" type="image/webp"><img src="img/payment/image_8.png" alt="Logo"></picture>
+										</div>
+									</div>
+								</div>
+								<div data-da=".payment-method__items, 905" class="payment-method__item">
+									<div class="payment-method__radio-block radio-block">
+										<input id="go-pay" checked type="radio" name="bank-radio" class="radio-original">
+										<label class="radio-block__label" for="go-pay"><span class="radio-block__text">GO-PAY</span></label>
+									</div>
+									<div class="payment-method__img">
+										<picture><source srcset="img/payment/image_9.webp" type="image/webp"><img src="img/payment/image_9.png" alt="Logo"></picture>
+									</div>
+								</div>
+								<div data-da=".payment-method__items, 905" class="payment-method__item">
+									<div class="payment-method__radio-block radio-block">
+										<input id="krdivo" type="radio" name="bank-radio" class="radio-original">
+										<label class="radio-block__label" for="krdivo"><span class="radio-block__text">Krdivo</span></label>
+									</div>
+									<div class="payment-method__img">
+										<picture><source srcset="img/payment/image_10.webp" type="image/webp"><img src="img/payment/image_10.png" alt="Logo"></picture>
+									</div>
+								</div>
+							</div>
+						</section>
+						<a href="confirmation.html" class="payment-method__button button">Proceed Payment</a>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer data-spollers="768,max" data-one-spoller class="footer">
+			<div class="footer__container">
+				<div class="footer-items">
+					<a href="home.html" class="footer-items__logo"><picture><source srcset="img/logo_white.webp" type="image/webp"><img src="img/logo_white.png" alt="logo"></picture></a>
+					<h4 class="footer-items__address-title">Address</h4>
+					<div class="footer-address">
+						<p class="footer-address__address-text">Store & Office</p>
+						<p class="footer-address__address-text">Jl. Setrasari Kulon III, No. 10-12,</p>
+						<p class="footer-address__address-text">Sukarasa, Sukasari, Bandung</p>
+						<p class="footer-address__address-text">Jawa Barat, Indonesia 40152</p>
+					</div>
+					<div class="footer-items__office-hour">
+						<h4 class="footer-items__address-title">Office Hour</h4>
+						<div class="footer-items__day">Monday - Sunday</div>
+						<div class="footer-items__time">10.00 - 18.00</div>
+					</div>
+				</div>
+				<div class="footer-items">
+					<button data-spoller type="button" class="footer-items__title title title--white-line">Get in touch</button>
+					<div class="footer-items__contact">
+						<div class="footer-items__communication communication">
+							<div class="communication__title">Phone</div>
+							<a href="tel:02220277564" class="communication__number">022-20277564</a>
+						</div>
+						<div class="footer-items__communication communication">
+							<div class="communication__title">Service Center</div>
+							<a href="tel:08112338899" class="communication__number">0811-233-8899</a>
+						</div>
+						<div class="footer-items__communication communication">
+							<div class="communication__title">Customer
+								Service</div>
+							<a href="tel:08112359988" class="communication__number">0811-235-9988</a>
+						</div>
+						<div class="footer-items__icon icon">
+							<a href="#" class="icon__footer _icon-facebook"></a>
+							<a href="#" class="icon__footer _icon-instagram"></a>
+							<a href="#" class="icon__footer _icon-twitter"></a>
+							<a href="#" class="icon__footer _icon-youtube"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-items">
+					<nuv class="footer-items__link link-footer">
+						<button data-spoller type="button" class="link-footer__title title title--white-line">Useful
+							Link</button>
+						<ul class="footer-list">
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Warranty & Complaints</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Order & Shipping</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Tracking Order</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">About Us</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Repair</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Terms</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">FAQ</a></li>
+						</ul>
+					</nuv>
+				</div>
+				<div class="footer-items">
+					<nuv class="footer-items__link link-footer">
+						<button data-spoller type="button" class="link-footer__title title title--white-line">Campaign</button>
+						<ul class="footer-list">
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Mengenal Arti Cukup</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Tell Your Difference</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Waykambas</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Rebrand</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Gallery</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Singo</a></li>
+							<li class="footer-list__items"><a href="#" class="footer-list__item">Rakai</a></li>
+						</ul>
+					</nuv>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+	<div id="search-1" aria-hidden="true" class="popup popup--search">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" method="get" class="popup__search search">
+						<div class="search__input-item">
+							<input type="search" autocomplete="off" required placeholder="Search" name="form[]" data-error="Error" placeholder="E-mail" class="search__input input">
+						</div>
+						<button type="submit" class="button search__button _icon-search"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ==================================================================================================== -->
+
+	<div id="popap-basket" aria-hidden="true" class="popup popup--basket">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close popup__close--right"></button>
+				<form class="popup__text">
+					<div class="popap-basket__cart cart-popap">
+						<a href="#" class="popap-basket__img">
+							<picture><source srcset="img/product/popap/image_1.webp" type="image/webp"><img src="img/product/popap/image_1.png" alt=""></picture>
+						</a>
+						<div class="popap-basket__description">
+							<a href="#" class="popap-basket__title">Way Kambas Mini Ebony</a>
+							<div class="popap-basket__old-price old-price">Rp 1.280.000</div>
+							<div class="popap-basket__price">Rp 1.024.000</div>
+							<div class="popap-basket__engrav">Custom Engrave</div>
+							<div class="popap-basket__gift">“Happy | Birthday | from”</div>
+						</div>
+						<div class="popap-basket__select select-popap">
+							<div class="select-popap__label">Select Packaging</div>
+							<select class="select-popap__option" name="form[]" data-class-modif="form">
+								<option value="1" selected>Wooden Packaging (Rp 50.000)</option>
+								<option value="2">Default Packaging (Free)</option>
+								<option value="3">Пункт №3</option>
+								<option value="4">Пункт №4</option>
+							</select>
+							<div class="popap-basket__quantity-blocks quantity-blocks">
+								<div data-quantity class="quantity">
+									<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+									<div class="quantity__input">
+										<input data-quantity-value onkeypress='validate(event)' autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+								</div>
+								<div class="quantity-blocks__items">
+									<div class="quantity-blocks__price">Rp 2.048.000</div>
+									<button class="quantity-blocks__basket _icon-trash"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popap-basket__cart cart-popap">
+						<a href="#" class="popap-basket__img">
+							<picture><source srcset="img/product/popap/image_2.webp" type="image/webp"><img src="img/product/popap/image_2.png" alt=""></picture>
+						</a>
+						<div class="popap-basket__description">
+							<a href="#" class="popap-basket__title">Sikka (Ebony & Maple)</a>
+							<div class="popap-basket__price">Rp 1.264.000</div>
+						</div>
+						<div class="popap-basket__select select-popap">
+							<div class="select-popap__label">Select Packaging</div>
+							<select class="select-popap__option" name="form[]" data-class-modif="form">
+								<option value="1" selected>Default Packaging (Free)<span></span>
+								</option>
+								<option value="2">Wooden Packaging (Rp 50.000)</option>
+								<option value="3">Пункт №3</option>
+								<option value="4">Пункт №4</option>
+							</select>
+							<div class="popap-basket__quantity-blocks quantity-blocks">
+								<div data-quantity class="quantity">
+									<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+									<div class="quantity__input">
+										<input data-quantity-value autocomplete="off" onkeypress='validate(event)' type="text" name="form[]" value="1">
+									</div>
+									<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+								</div>
+								<div class="quantity-blocks__items">
+									<div class="quantity-blocks__price">Rp 1.264.000</div>
+									<button class="quantity-blocks__basket _icon-trash"></button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="popap-basket__footer footer-basket">
+						<div class="footer-basket__items">
+							<!-- <div class="footer-basket__promo-code">Code Promo</div> -->
+							<div class="footer-basket__promo-code promo-code">
+								<label class="promo-code__label" for="promo">Code Promo</label>
+								<div class="promo-code__input-item">
+									<input id="promo" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="INDONESIA" class="promo-code__input">
+								</div>
+								<div class="footer-basket__procent">35% OFF</div>
+							</div>
+							<!-- <div class="footer-basket__procent">35% OFF</div> -->
+							<div class="footer-basket__subtotal">
+								<div class="footer-basket__total">Total</div>
+								<div class="footer-basket__price-items">
+									<div class="footer-basket__old-price old-price">Rp 3.312.000</div>
+									<div class="footer-basket__price">Rp 2.152.000</div>
+								</div>
+							</div>
+						</div>
+						<a href="checkout.html" class="footer-basket__button">Checkout</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230612235048"></script>
+	<script>
+		const oneSec = 1000,
+			container = document.getElementById('timer');
+
+		let dataHours = container.getAttribute('data-hours'),
+			dataMinutes = container.getAttribute('data-minutes'),
+			dataSeconds = container.getAttribute('data-seconds'),
+			timerEnd = container.getAttribute('data-timer-end'),
+			timerOnEndMsg = "data-timer-end";
+
+		if (dataHours == '' || dataHours == null || dataHours == NaN) {
+			dataHours = "0";
+		}
+		if (dataMinutes == '' || dataMinutes == null || dataMinutes == NaN) {
+			dataMinutes = "0";
+		}
+		if (dataSeconds == '' || dataSeconds == null || dataSeconds == NaN) {
+			dataSeconds = "0";
+		}
+
+		let hoursSpan = document.createElement('span'),
+			minutesSpan = document.createElement('span'),
+			secondsSpan = document.createElement('span'),
+			separator1 = document.createElement('span'),
+			separator2 = document.createElement('span'),
+			separatorValue = ":",
+			max = 59,
+			s = parseInt(dataSeconds) > max ? max : parseInt(dataSeconds),
+			m = parseInt(dataMinutes) > max ? max : parseInt(dataMinutes),
+			h = parseInt(dataHours);
+
+		secondsSpan.classList.add('time');
+		minutesSpan.classList.add('time');
+		hoursSpan.classList.add('time');
+		separator1.classList.add('separator');
+		separator1.textContent = separatorValue;
+		separator2.classList.add('separator');
+		separator2.textContent = separatorValue;
+
+		checkValue = (value) => {
+			if (value < 10) {
+				return "0" + value;
+			} else {
+				return value;
+			}
+		}
+
+		hoursSpan.textContent = checkValue(dataHours);
+		minutesSpan.textContent = checkValue(dataMinutes);
+		secondsSpan.textContent = checkValue(dataSeconds);
+
+		timer = (sv, mv, hv) => {
+
+			s = parseInt(sv);
+			m = parseInt(mv);
+			h = parseInt(hv);
+
+			if (s > 0) {
+				return s -= 1;
+			} else {
+				s = max;
+				if (m > 0) {
+					return m -= 1;
+				} else {
+					m = max;
+					if (h > 0) {
+						return h -= 1;
+					}
+				}
+			}
+		}
+
+		finished = () => {
+			max = 0;
+			let timerEnd = container.getAttribute(timerOnEndMsg);
+			container.setAttribute(timerOnEndMsg, 'true');
+			if (timerEnd == '' || timerEnd == null) {
+				container.textContent = "timer-end";
+			} else {
+				container.textContent = timerEnd;
+			}
+		}
+
+		counter = setInterval(() => {
+
+			if (h == 0 && m == 0 && s == 0) {
+				clearInterval(counter, finished());
+			}
+
+			if (s >= 0) {
+				timer(s, m, h);
+				hoursSpan.textContent = checkValue(h);
+				minutesSpan.textContent = checkValue(m);
+				secondsSpan.textContent = checkValue(s);
+			}
+		}, oneSec);
+
+		let children = [hoursSpan, separator1, minutesSpan, separator2, secondsSpan];
+
+		for (child of children) {
+			container.appendChild(child);
+		}
+	</script>
+</body>
+
+</html>
