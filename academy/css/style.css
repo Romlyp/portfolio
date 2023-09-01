@@ -1611,4 +1611,4 @@ body {
   }
 }
 
-.webp .image__img{ background: url(../img/bas2.webp) center center no-repeat; }
+.webp .image__img{ background: url(../img/bas2.webp) center center no-repeat; background-size: cover; }
